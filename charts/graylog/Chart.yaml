@@ -1,7 +1,7 @@
 apiVersion: v2
 name: graylog
 home: https://www.graylog.org
-version: 2.3.11
+version: 2.3.12
 appVersion: 6.2.3
 description: Graylog is the centralized log management solution built to open
   standards for capturing, storing, and enabling real-time analysis of terabytes
@@ -15,20 +15,17 @@ icon: https://global-uploads.webflow.com/5a218ef7897bf400019e2f16/5a218ef7897bf4
 sources:
   - https://github.com/KongZ/charts
 maintainers:
-  - name: KongZ
-    email: goonohc@gmail.com
-  - name: LuizJr
-    email: lj@luizjr.dev
-    url: https://luizjr.dev
+  - name: Thiago Loureiro
+    email: thiagoguaru@me.com
 dependencies:
   - tags:
       - install-mongodb
     name: mongodb
-    version: 13.6.6
+    version: 16.5.21
     repository: https://charts.bitnami.com/bitnami
   - tags:
       - install-opensearch
     name: opensearch
-    version: 2.8.0
+    version: 3.0.0
     repository: https://opensearch-project.github.io/helm-charts
 type: application
