@@ -13,7 +13,8 @@ keywords:
   - gelf
 icon: https://global-uploads.webflow.com/5a218ef7897bf400019e2f16/5a218ef7897bf400019e2f60_logo-graylog.png
 sources:
-  - https://github.com/KongZ/charts
+  - https://thiagoloureiro.github.io/graylog-k8s
+
 maintainers:
   - name: Thiago Loureiro
     email: thiagoguaru@me.com

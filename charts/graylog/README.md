@@ -15,7 +15,7 @@ To install the Graylog Chart with all dependencies
 ```bash
 kubectl create namespace graylog
 
-helm install --namespace "graylog" graylog kongz/graylog
+helm install --namespace "graylog" graylog graylog-k8s/graylog
 ```
 
 ## Manually Install Dependencies
@@ -46,7 +46,7 @@ Note: There are many alternative Opensearch available on [artifacthub.io](https:
 To install the Graylog Chart into your Kubernetes cluster (This Chart requires persistent volume by default, you may need to create a storage class before install chart.
 
 ```bash
-helm install --namespace "graylog" graylog kongz/graylog \
+helm install --namespace "graylog" graylog graylog-k8s/graylog \
   --set tags.install-mongodb=false\
   --set tags.install-opensearch=false\
   --set graylog.mongodb.uri=mongodb://mongodb-mongodb-replicaset-0.mongodb-mongodb-replicaset.graylog.svc.cluster.local:27017/graylog?replicaSet=rs0 \
