@@ -35,5 +35,5 @@ entries:
     type: application
     urls:
     - https://github.com/thiagoloureiro/graylog-k8s/releases/download/graylog-2.3.15/graylog-2.3.15.tgz
-    version: 2.3.15
+    version: 2.3.16
 generated: "2025-06-07T07:15:44.872032309Z"
