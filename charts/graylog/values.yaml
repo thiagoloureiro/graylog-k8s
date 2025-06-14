@@ -416,7 +416,7 @@ graylog:
   ## Graylog root password
   ## Defaults to a random 16-character alphanumeric string if not set
   ##
-  # rootPassword: ""
+  rootPassword: "1BqkZ1y9xA83QL2f5H4y"
 
   ## Graylog root email
   ##
