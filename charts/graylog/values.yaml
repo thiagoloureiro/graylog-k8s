@@ -447,6 +447,9 @@ graylog:
     uriSecretName: ""
     uriSecretKey: ""
     uriSSL: false
+    # OpenSearch authentication
+    username: "admin"
+    password: "admin"  # Should match OPENSEARCH_INITIAL_ADMIN_PASSWORD from OpenSearch configuration
 
   mongodb:
     ## MongoDB connection string
@@ -594,6 +597,8 @@ opensearch:
       value: "false"
     - name: plugins.security.disabled
       value: "true"
+    - name: OPENSEARCH_INITIAL_ADMIN_PASSWORD
+      value: "admin"  # You should change this to a secure password
   ## Set default resource very low. This help reduce resources usage on GitHub Action when performing chart-testing.
   opensearchJavaOpts: "-Xmx128M -Xms128M"
   resources:

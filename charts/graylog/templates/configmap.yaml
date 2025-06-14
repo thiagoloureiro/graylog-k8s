@@ -101,6 +101,8 @@ data:
     elasticsearch_hosts = {{ template "graylog.opensearch.hosts" . }}
     elasticsearch_discovery_enabled = false
     # elasticsearch_disable_version_check = true
+    elasticsearch_username = {{ .Values.graylog.opensearch.username }}
+    elasticsearch_password = {{ .Values.graylog.opensearch.password }}
     allow_leading_wildcard_searches = {{ .Values.graylog.options.allowLeadingWildcardSearches }}
     allow_highlighting = {{ .Values.graylog.options.allowHighlighting }}
     output_batch_size = 500
