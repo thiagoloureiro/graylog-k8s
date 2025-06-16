@@ -34,6 +34,6 @@ entries:
     - https://github.com/thiagoloureiro/graylog-k8s
     type: application
     urls:
-    - https://github.com/thiagoloureiro/graylog-k8s/releases/download/graylog-2.3.18/graylog-2.3.18.tgz
-    version: 2.3.18
+    - https://github.com/thiagoloureiro/graylog-k8s/releases/download/graylog-2.3.19/graylog-2.3.19.tgz
+    version: 2.3.19
 generated: "2025-06-07T07:15:44.872032309Z"
